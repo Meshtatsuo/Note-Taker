@@ -28,7 +28,6 @@ router.post("/notes", (req, res) => {
 // using its id and returns success if
 // delete successful
 router.delete("/notes/:id", (req, res) => {
-  console.log(req.params);
   if (removeNoteById(req.params.id)) {
     res.send("Success");
   }
