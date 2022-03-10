@@ -5,6 +5,7 @@ const path = require("path");
 //routes
 const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes");
+
 //json database for notes
 const { notes } = require("./db/db.json");
 
